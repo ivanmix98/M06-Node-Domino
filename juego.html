@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Domino</title>
+    <script type="text/javascript" src="js/principal.js"></script>
+    <script type="text/javascript" src="js/juego.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="central" id="title">
+    <h1> Domino  </h1>
+</div>
+
+<div class="central" id="homeDiv">
+    <div id="missatge"></div>
+    <button type="button" id="btnJugar" onclick="toGame();" href="" hidden>JUGAR</button>
+</div>
+
+<div class="central" id="dominoDiv" hidden>
+    <div id="jugades"></div>
+    <br><br>
+    <div id="dropZonesDiv" >
+        <div id="dropEsq" class="dropZone" ondrop="drop(event)" ondragover="allowDrop(event)">Izquierda</div>
+        <div id="dropDre" class="dropZone" ondrop="drop(event)" ondragover="allowDrop(event)">Derecha</div>
+        <br><br>
+        <div id="tornDiv"></div>
+        <br><br>
+    </div>
+    <div id="domino"></div>
+    <div id="idDiv"></div>
+</div>
+<br><br><br><br>
+<form action="/puntuar" method="post">
+<input type="submit" value="Sortir del Joc"/>
+</form>

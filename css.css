@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+ }
+
+#jugades{
+    width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+
+#dropEsq{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+#dropDre{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+#domino{
+    width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tornDiv{
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+}
